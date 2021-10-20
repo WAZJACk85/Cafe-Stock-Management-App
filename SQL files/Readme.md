@@ -7,6 +7,8 @@ As you can also see in the image Above, I have created a basic items dbo table, 
 
 SQL Query Code so far in the project:-
 
+CREATE SQL CODE
+
 create database Cafe4
 
 create table items(
