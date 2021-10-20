@@ -16,7 +16,131 @@ category varchar(250) not null,
 price bigint not null
 );
 
-Function c# file for SQL functions:-
+
+
+See SQL and C# code for adding items into my internal SQL Database below:- 
+
+I will append another folder, to this project in the next few weeks, showing a network 'live' database connection and code, as an alternative displaying a live setup.
+
+ADD ITEMS to DB
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Microsoft.VisualBasic.PowerPacks;
+
+namespace Cafe_Menu4.AllUserControls
+{
+    public partial class UC_AddItems : UserControl
+    {
+        function fn = new function();
+        String query;
+        public UC_AddItems()
+        {
+            InitializeComponent();
+        }
+
+       
+
+        private void btnAddItem_Click(object sender, EventArgs e)
+        {
+            query = "insert into items (name,category,price) values ('"+txtItem.Text+"','"+txtCategory.Text+"',"+txtPrice.Text+")";
+            fn.setData(query);
+            clearAll();
+        }
+
+    public void clearAll()
+        {
+            txtCategory.SelectedIndex = -1;
+            txtItem.Clear();
+            txtPrice.Clear();
+        }
+
+        private void UC_AddItems_Leave(object sender, EventArgs e)
+        {
+            clearAll();
+        }
+    }
+}
+
+
+Here is the code for updating items:-
+
+UPDATE ITEMS ON DB
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Cafe_Menu4.AllUserControls
+{
+    public partial class UC_UpdateItems : UserControl
+    {
+        function fn = new function();
+        String query;
+        public UC_UpdateItems()
+        {
+            InitializeComponent();
+        }
+
+        private void UC_UpdateItems_Load(object sender, EventArgs e)
+        {
+            loadData();
+        }
+        public void loadData()
+        {
+            query = "select * from items";
+            DataSet ds = fn.getData(query);
+            guna2DataGridView1.DataSource = ds.Tables[0];
+        }
+
+        private void txtSearchItem_TextChanged(object sender, EventArgs e)
+        {
+            query = "select *from items where name like '" + txtSearchItem.Text + "%'";
+            DataSet ds = fn.getData(query);
+            guna2DataGridView1.DataSource = ds.Tables[0];   
+        }
+
+        int id;
+        private void guna2DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            id = int.Parse(guna2DataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString());
+            String category = guna2DataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            String name = guna2DataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            int price = int.Parse(guna2DataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString());
+
+            txtCategory.Text = category;
+            txtName.Text = name;
+            txtPrice.Text = price.ToString();
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            query = "update items set name= '" + txtName.Text + "',category = '" + txtCategory.Text + "',price=" + txtPrice.Text + "where iid = " + id + "";
+            fn.setData(query);
+            loadData();
+
+            txtName.Clear();
+            txtCategory.Clear();
+            txtPrice.Clear();
+        }
+    }
+}
+
+
+Function c# file for SQL connection functions (and dataset functions):-
 
 using System;
 using System.Collections.Generic;
