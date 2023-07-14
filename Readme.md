@@ -12,3 +12,5 @@ In the Application you can:
 Please see the majority of the code housed in my repository folders, this is currently designed to work on my laptop and connect to my internal Relational MSSQL databases, however in the near future I will create a sister project, whereby the project runs from an external SQL source, to make the app more flexible and show knowledge of network data manipulation.
 
 * Also in the future I will upgrade this application's looks(GUI) and the way the features are used, so the Hypothetical user may gain a better user experience.  Finally I will do A video live capture of using the application and post this onto my website (subdomain address) so that if anyone/ employers are interested in the knowledege and design they can see the app working and and an overview of each section and brief exposure to the code alongside the application video.
+
+## Explanation of the Basic functions and main code structure with Screenshots
