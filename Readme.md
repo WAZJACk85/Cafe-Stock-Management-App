@@ -1,3 +1,6 @@
+
+<h1>Cafe Stock Management APP - Explanation and Screenshots (also video rec at my website) (https://portfolio.buyshirtsandstuff.com/)</h1>
+
 I have coded a stock and place order application run on C#, winforms, xml and SQL for a hypothetical cafe.  In the Application you can place orders and print 
 bills for customers, add new stock items via the admin login; to the inventory (via SQL database), also, you can Delete items and Update the details of the stock items 
 via the application GUI which will send the commands to the SQL Database.
