@@ -13,4 +13,6 @@ Please see the majority of the code housed in my repository folders, this is cur
 
 * Also in the future I will upgrade this application's looks(GUI) and the way the features are used, so the Hypothetical user may gain a better user experience.  Finally I will do A video live capture of using the application and post this onto my website (subdomain address) so that if anyone/ employers are interested in the knowledege and design they can see the app working and and an overview of each section and brief exposure to the code alongside the application video.
 
+Current Video: https://portfolio.buyshirtsandstuff.com/
+
 ## Explanation of the Basic functions and main code structure with Screenshots
