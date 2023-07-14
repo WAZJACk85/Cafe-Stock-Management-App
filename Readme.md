@@ -3,7 +3,8 @@
 
 ## I have coded a stock and place order application run on C#, winforms, xml and SQL for a hypothetical cafe.
 
-In the Application you can place orders and print bills for customers
+In the Application you can: 
+* Place orders and print bills for customers
 * Add new stock items via the admin login; 
 * Add to the inventory (via SQL database);
 * Also, you can Delete items and Update the details of the stock items via the application GUI which will send the commands to the SQL Database;
