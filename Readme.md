@@ -1,7 +1,7 @@
 
 <h1>Cafe Stock Management APP - Explanation and Screenshots (also video rec at my website) (https://portfolio.buyshirtsandstuff.com/)</h1>
 
-(##[I have coded a stock and place order application run on C#, winforms, xml and SQL for a hypothetical cafe.]##)
+## I have coded a stock and place order application run on C#, winforms, xml and SQL for a hypothetical cafe.
 
 In the Application you can place orders and print bills for customers
 * Add new stock items via the admin login; 
