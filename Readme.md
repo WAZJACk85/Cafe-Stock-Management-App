@@ -34,7 +34,7 @@ the main namespace is called       **Cafe_Menu4**    and within this namespace (
 
 It loads the buttons which link to other sections and sub-programs (built in csharp) and presents the first page of the Dashboard.
 
-Files linked via namespace   Cafe_Menu4     :  
+## Files linked via namespace   Cafe_Menu4     :  
 
 dashboard.cs    program.cs function.cs  and 
 form1.cs
