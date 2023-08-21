@@ -22,7 +22,7 @@ Current Video: https://portfolio.buyshirtsandstuff.com/
 
 **using**  :    
 
-**using** is the library action to use and draw functions and mini frameworks (i.e complex linked functions)
+**using** is the library action to use and import functions and mini frameworks (i.e complex linked functions)
 In this app we are **using**  mainly  from System and  System.windows.forms  ; enabling drawing of graphics and form defined parameters and objects. System allows extra functions (elaborate in full build document) one of which is SQL commands and external parses and net commands.
 
 **namespace** :  **namespace** is like a sub program name, used as a reference to export or import other files or functions.  It is also a space to keep 'names'. Names of functions, variables and all other sorts of code objects separate from other 'names' within the whole of the application scope.
