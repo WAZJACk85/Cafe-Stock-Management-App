@@ -75,7 +75,7 @@ When buttons are clicked or values are entered in by the user (names of products
 **The APP program flow chart is as such:-**
 
 
-# User entry =>  Designer.cs file  =>  talks to  UC_Additems.cs => talks to database adds values => reflects to UC_Additems.cs => reflects to Desgine.cs file  ( now the user can see change)
+# User entry =>  Designer.cs file  =>  talks to  UC_Additems.cs => talks to database adds values => reflects to UC_Additems.cs => reflects to Designer.cs file  ( now the user can see change)
 
 
 
