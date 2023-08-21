@@ -1,5 +1,5 @@
 
-<h1>Cafe Stock Management APP - Explanation (https://github.com/WAZJACk85/Cafe-Stock-Management-App/edit/main/Readme.md#:~:text=20-,21,-22) and Screenshots (also video rec at my website) (https://portfolio.buyshirtsandstuff.com/)</h1>
+<h1>Cafe Stock Management APP - [Explanation (https://github.com/WAZJACk85/Cafe-Stock-Management-App/edit/main/Readme.md#:~:text=20-,21,-22)] and Screenshots (also video rec at my website) (https://portfolio.buyshirtsandstuff.com/)</h1>
 
 ## I have coded a stock and place order application run on C#, winforms, xml and SQL for a hypothetical cafe.
 
@@ -18,7 +18,7 @@ Current Video: https://portfolio.buyshirtsandstuff.com/
 ## Explanation of the Basic functions and main code structure with Screenshots
 
 
-[### START POINT  ###]
+### START POINT  ###
 
 **using**  : #    
 
