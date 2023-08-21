@@ -34,14 +34,19 @@ the main namespace is called       **Cafe_Menu4**    and within this namespace (
 
 It loads the buttons which link to other sections and sub-programs (built in csharp) and presents the first page of the Dashboard.
 
-Files linked via namespace   Cafe_Menu4     :  dashboard.cs    program.cs function.cs  and 
+Files linked via namespace   Cafe_Menu4     :  
+
+dashboard.cs    program.cs function.cs  and 
 form1.cs
 
-dashboard.cs = opens main dashboard and loads section button links
-program.cs = main entry point to run other main programs
-function.cs = sets connection to server and db,  defines how to get data,  defines how to set data.
+* dashboard.cs = opens main dashboard and loads section button links;
+  
+* program.cs = main entry point to run other main programs;
+  
+* function.cs = sets connection to server and db,  defines how to get data,  defines how to set data;
 
-form1.cs= Is like a SQL glossary and defines how the SQL commands and functions work to get and set data.
+* form1.cs= Is like a SQL glossary and defines how the SQL commands and functions work to get and set data;
+
 
 (SUMMARY : load events, buttons , intializer, welcome screens, load section links/page links/ SQL Glossary)
 
