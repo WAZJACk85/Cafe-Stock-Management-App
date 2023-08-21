@@ -20,12 +20,13 @@ Current Video: https://portfolio.buyshirtsandstuff.com/
 
 ### START POINT  ###
 
-**using**  : #    
+**using**  :    
 
 **using** is the library action to use and draw functions and mini frameworks (i.e complex linked functions)
 In this app we are **using**  mainly  from System and  System.windows.forms  ; enabling drawing of graphics and form defined parameters and objects. System allows extra functions (elaborate in full build document) one of which is SQL commands and external parses and net commands.
 
 **namespace** :  **namespace** is like a sub program name, used as a reference to export or import other files or functions.  It is also a space to keep 'names'. Names of functions, variables and all other sorts of code objects separate from other 'names' within the whole of the application scope.
+
 In this case the main namespace is called       **Cafe_Menu4**    and within this namespace (think of it as a folder of linked files with linked functions)  it holds all of the functions and events in the first page of the application and interacts with the login input. It also holds the entry point to add other subprograms and libraries and the defined functions (glossary) for executing SQL commands to the Database.
 
 It loads the buttons which link to other sections and sub-programs (built in csharp) and presents the first page of the Dashboard.
@@ -43,24 +44,25 @@ form1.cs= Is like a SQL glossary and defines how the SQL commands and functions 
 
 Sub-namespaces / Sub-programs 
 
-List:-
-Cafe_Menu4.AllUserControls
+**List:-**
+
+* Cafe_Menu4.AllUserControls
 
 Sub-namespaces  :  are often folders built into the main namespaces they follow the namespace with a full stop  i.e   .AlluserControls
 
 They can be used as there own namespaces, but it is useful to connect them to the main namespace in most cases.
 
-Partial-classes / Sub-class 
+**Partial-classes / Sub-class**
 
-UC_Additems.cs
-UC_PlaceOrder.cs
-UC_RemoveItem.cs
-UC_UpdateItems.cs
-UC_Welcome.cs
+* UC_Additems.cs
+* UC_PlaceOrder.cs
+* UC_RemoveItem.cs
+* UC_UpdateItems.cs
+* UC_Welcome.cs
 
-Description of Partial-classes / Sub-classes
+### Description of Partial-classes / Sub-classes ###
 
-These sub classes (public partial class) above,  house within them,  a list of functions that interact when the user clicks action buttons housed in the  .Designer.cs   graphics program.  Each of the above sub-programs / classes links to a 'graphics file'  or csharp draw file (designer.cs)  this 'draws/paints' the graphics of each form page linked to the corresponding sub-programs above.  
+These sub classes (public partial class) above,  house within them,  a list of functions that interact when the user clicks action buttons housed in the  ## **.Designer.cs**   graphics program.  Each of the above sub-programs / classes links to a 'graphics file'  or csharp draw file (designer.cs)  this 'draws/paints' the graphics of each form page linked to the corresponding sub-programs above.  
 
 When actions are clicked or values are entered in by the user (names of products to add or numbers)  it will parse these 'user entered values' into the connected database and will fill the boxes for the user to see.
 
