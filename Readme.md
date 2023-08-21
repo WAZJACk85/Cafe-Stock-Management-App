@@ -62,13 +62,13 @@ They can be used as there own namespaces, but it is useful to connect them to th
 
 ### Description of Partial-classes / Sub-classes ###
 
-These sub classes (public partial class) above,  house within them,  a list of functions that interact when the user clicks action buttons housed in the  ## **.Designer.cs**   graphics program.  Each of the above sub-programs / classes links to a 'graphics file'  or csharp draw file (designer.cs)  this 'draws/paints' the graphics of each form page linked to the corresponding sub-programs above.  
+These sub classes (public partial class) above,  house within them,  a list of functions that interact when the user clicks action buttons housed in the  <h1> **.Designer.cs** </h1> graphics program.  Each of the above sub-programs / classes links to a 'graphics file'  or csharp draw file (designer.cs)  this 'draws/paints' the graphics of each form page linked to the corresponding sub-programs above.  
 
 When actions are clicked or values are entered in by the user (names of products to add or numbers)  it will parse these 'user entered values' into the connected database and will fill the boxes for the user to see.
 
-The flow chart is as such:-
+**The flow chart is as such:-**
 
-User entry =>  Designer.cs file  =>  talks to  UC_Additems.cs => talks to database adds values => reflects to UC_Additems.cs => reflects to Desgine.cs file  ( now the user can see change)
+# User entry =>  Designer.cs file  =>  talks to  UC_Additems.cs => talks to database adds values => reflects to UC_Additems.cs => reflects to Desgine.cs file  ( now the user can see change)
 
 
 
