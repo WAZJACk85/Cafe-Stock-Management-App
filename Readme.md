@@ -59,7 +59,8 @@ form1.cs
 
   This is simply a subdirectory of the main namespace it is essentially a folder.
 
-
+<br></br>
+<br></br>
   
 
 **Sub-namespaces**  :  are often folders built into the main namespaces they follow the namespace with a full stop  i.e   **.AlluserControls**
