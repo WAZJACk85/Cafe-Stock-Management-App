@@ -62,7 +62,7 @@ They can be used as there own namespaces, but it is useful to connect them to th
 
 ### Description of Partial-classes / Sub-classes ###
 
-These sub classes (public partial class) above,  house within them,  a list of functions that interact when the user clicks action buttons housed in the  <h6> **.Designer.cs** </h6> graphics program.  Each of the above sub-programs / classes links to a 'graphics file'  or csharp draw file (designer.cs)  this 'draws/paints' the graphics of each form page linked to the corresponding sub-programs above.  
+These sub classes (public partial class) above,  house within them,  a list of functions that interact when the user clicks action buttons housed in the    **.Designer.cs**    graphics program.  Each of the above sub-programs / classes links to a 'graphics file'  or csharp draw file (designer.cs)  this 'draws/paints' the graphics of each form page linked to the corresponding sub-programs above.  
 
 When actions are clicked or values are entered in by the user (names of products to add or numbers)  it will parse these 'user entered values' into the connected database and will fill the boxes for the user to see.
 
