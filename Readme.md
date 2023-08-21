@@ -20,11 +20,13 @@ Current Video: https://portfolio.buyshirtsandstuff.com/
 
 ### START POINT  ###
 
-using  :     using is the library action to use and draw functions and mini frameworks (i.e complex linked functions)
-In this app we are using  mainly  from System and  System.windows.forms  ; enabling drawing of graphics and form defined parameters and objects. System allows extra functions (elaborate in full build document) one of which is SQL commands and external parses and net commands.
+**using**  : #    
 
-namespace :  namespace is like a sub program name, used as a reference to export or import other files or functions.  It is also a space to keep 'names'. Names of functions, variables and all other sorts of code objects separate from other 'names' within the whole of the application scope.
-In this case the main namespace is called       Cafe_Menu4     and within this namespace (think of it as a folder of linked files with linked functions)  it holds all of the functions and events in the first page of the application and interacts with the login input. It also holds the entry point to add other subprograms and libraries and the defined functions (glossary) for executing SQL commands to the Database.
+**using** is the library action to use and draw functions and mini frameworks (i.e complex linked functions)
+In this app we are **using**  mainly  from System and  System.windows.forms  ; enabling drawing of graphics and form defined parameters and objects. System allows extra functions (elaborate in full build document) one of which is SQL commands and external parses and net commands.
+
+**namespace** :  **namespace** is like a sub program name, used as a reference to export or import other files or functions.  It is also a space to keep 'names'. Names of functions, variables and all other sorts of code objects separate from other 'names' within the whole of the application scope.
+In this case the main namespace is called       **Cafe_Menu4**    and within this namespace (think of it as a folder of linked files with linked functions)  it holds all of the functions and events in the first page of the application and interacts with the login input. It also holds the entry point to add other subprograms and libraries and the defined functions (glossary) for executing SQL commands to the Database.
 
 It loads the buttons which link to other sections and sub-programs (built in csharp) and presents the first page of the Dashboard.
 
