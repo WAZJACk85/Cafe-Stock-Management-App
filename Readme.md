@@ -89,5 +89,10 @@ When buttons are clicked or values are entered in by the user (names of products
 
 
 
+# * Further more detailed technical documentation will be attached within project folder tree in near future.
+* Will add screenshots next week to this explanation.
+
+
+
 
 
